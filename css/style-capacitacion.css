@@ -163,9 +163,9 @@
 
 
 .paper-pad-area {
-  height: 706px;
-    margin: 0;
-    display: block;
+  height: 625px;
+  margin: 0;
+  display: block;
 }
 
 .paper-pad-container{
@@ -173,16 +173,16 @@
 }
 
 .paper-pad-heading {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    top: 170px;
-    position: relative;
-    z-index: 9;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  top: 170px;
+  position: relative;
+  z-index: 9;
 }
 
 .list-box{
-  width: 454px;
+  width: 495px;
   margin: 0 auto;
   display: block;
   height: 478px;
@@ -201,7 +201,7 @@
 .paper-pad-list-1 {
   z-index: 999999;
   display: inline-block;
-  transform: translateY(215px);
+  transform: translateY(213px);
   font-family: 'Martel', serif;
   font-weight: 300;
   margin-right: 50px;
@@ -211,7 +211,7 @@
 .paper-pad-list-2 {
       z-index: 999999;
       display: inline-block;
-      transform: translateY(215px);
+      transform: translateY(213px);
       font-family: 'Martel', serif;
       font-weight: 300;
       color: #666;
@@ -220,8 +220,13 @@
 
 .paper-pad ul li {
   list-style: none;
-  margin-bottom: 19px;
+  margin-bottom: 17px;
   cursor: pointer;
+  text-decoration: underline;
+}
+
+.paper-pad ul li:hover {
+  color: #5191e0;
 }
 
 .paper-pad ul li:before {

@@ -67,7 +67,8 @@ body {
 }
 
 .font-gray {
-  color: #a7b1bd;
+  color: #87919e;
+  font-weight: 100;
 }
 
 .margin-navbar {
@@ -160,7 +161,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 740px){
+@media only screen and (max-width: 800px){
   .mobile-menu {
     display: initial;
   }
@@ -400,7 +401,7 @@ h3 {
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 801px){
   h1 {
     text-align: center;
     font-size: 34px;
@@ -956,10 +957,10 @@ h3 {
   .ventajas-box {
     max-width: 460px;
     padding: 41px 80px;
-    background-color: #4985d0;
+    background-color: #b48cc1;
     margin: 0;
     display: block;
-    border-top: 1px solid hsla(213,50%,50%,1);
+    border-top: 1px solid hsl(285, 24%, 59%);
   }
 
   .ventajas-text {
@@ -1187,8 +1188,8 @@ h3 {
   .conferencias-main-copy {
     max-width: 611px;
     position: relative;
-    -webkit-transform: translateY(115%);
-            transform: translateY(115%);
+    -webkit-transform: translateY(90%);
+            transform: translateY(90%);
     margin: 0 auto;
   }
 
@@ -1215,6 +1216,22 @@ h3 {
     font-weight: 700;
     text-align: center;
     }
+
+  .conferencias-link {
+    background-color: #fbb752;
+    border: none;
+    border-radius: 20px;
+    width: 159px;
+    height: 40px;
+    color: white;
+    -webkit-transition: all .3s ease-in-out;
+    text-align: center;
+    margin: 20px auto 0;
+    display: block;
+  }
+  .conferencias-link:hover {
+    colo: #5191e0;
+  }
 
     .conferencias-main-description {
       font-size: 17px;

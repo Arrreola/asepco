@@ -4,7 +4,7 @@
 
 .list-modal-dialog {
   width: 700px;
-  margin: 0 auto;
+  margin: 40px auto 0;
   background-color: white;
   border-radius: 6px;
   padding-bottom: 10px;
@@ -35,7 +35,18 @@
 }
 
 .list-modal-list {
-  padding: 10px 20px;
+  font-size: 13px;
+  padding: 9px 20px;
   border-bottom: 1px solid #eee;
   list-style: none;
+}
+
+.blue-list {
+  background-color: #dee7f3;
+}
+
+@media only screen and (max-width: 800px){
+  .list-modal-dialog{
+    width: 90%;
+  }
 }
