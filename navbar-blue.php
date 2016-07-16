@@ -9,7 +9,10 @@
         </li>
         <li class="dropdown navbar-breadcrumb breadcrumb-1 hide-mobile"><a class="dropdown-toggle font-white" href="quienes.php">Quienes somos</a>
         </li>
-        <li class="dropdown navbar-breadcrumb breadcrumb-1 hide-mobile"><a class="dropdown-toggle font-white" href="unete.php">Unete al equipo</a>
+        <li class="dropdown navbar-breadcrumb breadcrumb-1 hide-mobile"><a class="dropdown-toggle font-white" href="unete.php">Únete al equipo</a>
+        </li>
+        <li class="dropdown navbar-breadcrumb breadcrumb-1 hide-mobile">
+          <a class="dropdown-toggle font-white" href="https://www.facebook.com/Asepco-Capacitaci%C3%B3n-170460659638224/"><img style="height:22px; width:22px;"src="img/fb-icon.png" alt="Facebook icon"/></a>
         </li>
         <li class="dropdown navbar-breadcrumb breadcrumb-1 hide-mobile">
           <button class="contacto-button" name="button" data-toggle="modal" data-target="#details-1">Contacto</button>

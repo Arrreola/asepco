@@ -19,10 +19,11 @@
 
   </head>
   <body>
+    <?php include_once("analyticstracking.php") ?>
     <!--NAVBAR INCLUDE-->
     <?php include 'navbar-blue.php';
     ?>
-    <?php include 'capacitacion-list.php'; ?>
+    <?php include 'capacitacion-list-2.php'; ?>
 
     <section>
       <div class="capacitacion-content-1 margin-navbar">
@@ -49,29 +50,29 @@
       <span class="paper-pad-heading font-blue">Somos expertos en:</span>
       <div class="list-box">
         <ul class="paper-pad-list-1">
-          <li data-toggle="modal" id="ventas" data-target="#ventas" data-toggle="modal">Ventas</li>
-          <li data-toggle="modal" id="servicio" data-target="#servicio" data-toggle="modal">Servicio</li>
-          <li data-toggle="modal" id="atencion" data-target="#atencion" data-toggle="modal">Atención al cliente</li>
+          <li data-toggle="modal" id="admin" data-target="#admin" data-toggle="modal">Administración</li>
+          <li data-toggle="modal" id="calidad" data-target="#calidad" data-toggle="modal">Calidad y productividad</li>
+          <li data-toggle="modal" id="cambio-innovacion" data-target="#cambio-innovacion" data-toggle="modal">Cambio e innovación</li>
           <li data-toggle="modal" id="comunicacion" data-target="#comunicacion" data-toggle="modal">Comunicación</li>
-          <li data-toggle="modal" id="trabajo" data-target="#trabajo" data-toggle="modal">Trabajo en equipo</li>
-          <li data-toggle="modal" id="calidad" data-target="#calidad" data-toggle="modal">Calidad</li>
-          <li data-toggle="modal" id="productividad" data-target="#productividad" data-toggle="modal">Productividad</li>
+          <li data-toggle="modal" id="trabajo" data-target="#equipo" data-toggle="modal">Trabajo en equipo</li>
+          <li data-toggle="modal" id="humanidades" data-target="#humanidades" data-toggle="modal">Humanidades</li>
+          <li data-toggle="modal" id="liderazgo" data-target="#liderazgo" data-toggle="modal">Liderazgo</li>
         </ul>
 
         <ul class="paper-pad-list-2">
-          <li data-toggle="modal" id="liderazgo">Liderazgo</li>
-          <li data-toggle="modal" id="negociacion">Negociación</li>
-          <li data-toggle="modal" id="admin">Administración</li>
-          <li data-toggle="modal" id="recursos">Recursos humanos</li>
-          <li data-toggle="modal" id="humanidades">Humanidades</li>
-          <li data-toggle="modal" id="innovacion">Innovación</li>
-          <li data-toggle="modal" id="motivacion">Motivación</li>
+          <li data-toggle="modal" id="manejo-tiempo" data-target="#manejo-tiempo" data-toggle="modal">Manejo del tiempo</li>
+          <li data-toggle="modal" id="negociacion" data-target="#negociacion" data-toggle="modal">Negociación</li>
+          <li data-toggle="modal" id="recursos" data-target="#recursos" data-toggle="modal">Recursos humanos</li>
+          <li data-toggle="modal" id="servicio" data-target="#servicio" data-toggle="modal">Servicio</li>
+          <li data-toggle="modal" id="tecnicos" data-target="#tecnicos" data-toggle="modal">Técnicos</li>
+          <li data-toggle="modal" id="ventas" data-target="#ventas" data-toggle="modal">Ventas</li>
+          <li data-toggle="modal" id="cambio-innovacion" data-target="#cambio-innovacion" data-toggle="modal">Innovación</li>
         </ul>
-        <form method="get" action="catalogo.pdf">
+        <!-- <form method="get" action="catalogo.pdf">
           <button id="filerequest" type="submit" name="button" class="yellow-button">Descárgalo</button>
-        </form>
+        </form> -->
       </div>
-      <img src="img/paper-pad-2.png" alt=""/>
+      <img src="img/paper-pad-3.png" alt=""/>
     </div>
   </div>
 </section>
@@ -98,7 +99,7 @@
               </li>
               <hr>
               <li class="capacitacion-bullet-point">
-                <p class="capacitacion-bullet-title font-white">Reconocimiéntos</p>
+                <p class="capacitacion-bullet-title font-white">Reconocimientos</p>
                 Nuestros servicios incluyen un reconocimiento por participante bajo el registro de la Secretaría
                 del Trabajo y Previsión Social (STPS).
               </li>
@@ -119,7 +120,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $("#dropdown-menu-button").click(function () {
              $("#dropdown-menu").fadeToggle();
        });
@@ -129,7 +130,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
        $("section").click(function () {
            $("#dropdown-menu").fadeOut();
        });
@@ -138,7 +139,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $(".index-navbar-breadcrumb").click(function () {
              $("#dropdown-menu").fadeOut();
          });
@@ -147,7 +148,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $(".index-navbar-breadcrumb").click(function () {
              $("#dropdown-menu").fadeOut();
          });

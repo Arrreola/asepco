@@ -22,9 +22,11 @@
 
   </head>
   <body>
+    <?php include_once("analyticstracking.php") ?>
     <!--NAVBAR INCLUDE-->
     <?php include 'navbar-blue.php';
     ?>
+    <?php include 'capacitacion-list-2.php'; ?>
 
     <section>
       <div class="conferencias-content-1 margin-navbar">
@@ -40,6 +42,7 @@
               de interés logrando adaptarnos a los objetivos de capacitación
               de nuestros clientes.
             </p>
+            <button class="conferencias-link" data-toggle="modal" id="conferencias" data-target="#conferencias" data-toggle="modal">Ver catálogo</button>
           </div>
         </div>
       </div>
@@ -62,6 +65,14 @@
      }
  </script>
 
+ <!-- List imports -->
+ <link href="css/capacitacion-list.css" rel="stylesheet">
+ <script>
+         $("#psiquiatria, .pop-up-close").click(function () {
+             $("#psiquiatria-modal").fadeToggle();
+             $(".index-html").toggleClass("overflow-hidden")
+     });
+ </script>
 
  <script>
      var windowWidth = $(window).width();

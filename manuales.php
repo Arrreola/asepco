@@ -16,6 +16,7 @@
 
   </head>
   <body>
+    <?php include_once("analyticstracking.php") ?>
     <!--NAVBAR INCLUDE-->
     <?php include 'navbar-blue.php';
     ?>
@@ -62,7 +63,7 @@
 
           <div class="ventajas-box">
             <p class="ventajas-text font-white">
-              Construirse como un instructivo o guia práctica para el usuario,
+              Construirse como un instructivo o guía práctica para el usuario,
               en momentos de dudas en la operación.
             </p>
           </div>
@@ -105,7 +106,7 @@
           <div class="productos-box">
             <img src="img/icons/icon-productos-02.png" alt="" />
             <p class="productos-box-heading font-blue">
-              Manual de capacitacion y <br>presentación de apoyo.
+              Manual de capacitación y <br>presentación de apoyo.
             </p>
             <p class="productos-text font-gray">
               Material requerido para la aplicación de capacitación. Dispuesto
@@ -141,7 +142,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $("#dropdown-menu-button").click(function () {
              $("#dropdown-menu").fadeToggle();
        });
@@ -151,7 +152,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
        $("section").click(function () {
            $("#dropdown-menu").fadeOut();
        });
@@ -160,7 +161,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $(".index-navbar-breadcrumb").click(function () {
              $("#dropdown-menu").fadeOut();
          });
@@ -169,7 +170,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $(".index-navbar-breadcrumb").click(function () {
              $("#dropdown-menu").fadeOut();
          });
@@ -194,5 +195,5 @@
  </script>
 
   </body>
-  <footer></footer>
+  <!-- <footer></footer> -->
 </html>

@@ -61,8 +61,8 @@ El objetivo es lograr la implementación del conocimiento y las habilidades del 
                 <li class="quienes-bullet-point">
                   <img src="img/check.png" alt="" />
                   <span>
-                  Completa flexibilidad para adaptarnos a la logistica
-                  de los programas de capacitacion.
+                  Completa flexibilidad para adaptarnos a la logística
+                  de los programas de capacitación.
                   </span>
                 </li>
                 <li class="quienes-bullet-point">
@@ -75,13 +75,13 @@ El objetivo es lograr la implementación del conocimiento y las habilidades del 
                 <li class="quienes-bullet-point">
                   <img src="img/check.png" alt="" />
                   <span>
-                  Únicos con un modelo de retorno sobre la inversion.
+                  Únicos con un modelo de retorno sobre la inversión.
                   </span>
                 </li>
                 <li class="quienes-bullet-point">
                   <img src="img/check.png" alt="" />
                   <span>
-                  Altamente sensibles a los presupuestos asignados a la capacitacíon.
+                  Altamente sensibles a los presupuestos asignados a la capacitación.
                   </span>
                 </li>
               </ul>
@@ -110,7 +110,7 @@ El objetivo es lograr la implementación del conocimiento y las habilidades del 
       <li class="client-list-each">Delicias del Contry</li>
       <li class="client-list-each">Daltile</li>
       <li class="client-list-each">Frisa</li>
-      <li class="client-list-each">Quacker State</li>
+      <li class="client-list-each">Quaker State</li>
       <li class="client-list-each">Guntner</li>
       <li class="client-list-each">John Deere</li>
       <li class="client-list-each">Gruma</li>
@@ -120,7 +120,7 @@ El objetivo es lograr la implementación del conocimiento y las habilidades del 
       <li class="client-list-each">Carniceria San Juan</li>
       <li class="client-list-each">C&A</li>
       <li class="client-list-each">Agua y Drenaje</li>
-      <li class="client-list-each">Invursa</li>
+      <li class="client-list-each">Inbursa</li>
     </ul>
     <ul class="client-list-b font-gray">
       <li class="client-list-each">Toyota</li>

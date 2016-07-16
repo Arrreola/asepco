@@ -16,6 +16,7 @@
 
   </head>
   <body class="team-background">
+    <?php include_once("analyticstracking.php") ?>
     <!--NAVBAR INCLUDE-->
     <?php include 'navbar-blue.php';
     ?>

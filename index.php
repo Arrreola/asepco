@@ -11,20 +11,15 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/dropdown-menu.js"></script>
 
     <!-- Form -->
-    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $("#pagerform").validate();
-    });
-    </script>
-
   </head>
   <body class="index-body">
+    <?php include_once("analyticstracking.php") ?>
     <!--NAVBAR INCLUDE-->
     <?php include 'navbar-blue.php';
     ?>
@@ -33,12 +28,14 @@
       <div class="content-1 margin-navbar">
         <div class="container">
           <div class=" main-copy">
-            <h1 class="font-white">Hacemos de tu capacitacion <br>la mejor inversion.</h1>
+            <h1 class="font-white">Hacemos de tu capacitación <br>la mejor inversión.</h1>
             <hr class="main-copy-hr">
-            <h3 class="font-white">Aqui deberia poner un texto que defina perfectamente lo que hace asepco y asi poder escribir una frase cool y que esto quede directo.</h3>
+            <h3 class="font-white">Ofreciendo programas de capacitación en México por mas de 15 años.</h3>
           </div>
         </div>
       </div>
+
+      <div class="msg"></div>
 
       <div class="main-products">
             <a href="capacitacion.php" class="product-box">
@@ -84,7 +81,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $("#dropdown-menu-button").click(function () {
              $("#dropdown-menu").fadeToggle();
        });
@@ -94,7 +91,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
        $("section").click(function () {
            $("#dropdown-menu").fadeOut();
        });
@@ -103,7 +100,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $(".index-navbar-breadcrumb").click(function () {
              $("#dropdown-menu").fadeOut();
          });
@@ -112,7 +109,7 @@
 
  <script>
      var windowWidth = $(window).width();
-     if(windowWidth < 768){
+     if(windowWidth < 800){
          $(".index-navbar-breadcrumb").click(function () {
              $("#dropdown-menu").fadeOut();
          });
