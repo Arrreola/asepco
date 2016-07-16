@@ -11,7 +11,7 @@
       <div class="modal-form">
         <script src="js/main.js"></script>
         <meta charset="utf-8">
-        <form enctype="multipart/form-data" name="pagerform" id="pageForm">
+        <form enctype="multipart/form-data" name="pagerform" id="pageForm" class="contacto-form">
           <input type="text" placeholder="Nombre"  name="nombre">
           <input type="text" placeholder="Correo"  name="correo">
           <input type="text" placeholder="Asunto:" name="asunto">
