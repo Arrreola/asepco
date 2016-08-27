@@ -13,6 +13,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
   </head>
   <body class="team-background">
@@ -20,6 +21,34 @@
     <!--NAVBAR INCLUDE-->
     <?php include 'navbar-blue.php';
     ?>
+
+    <!-- Form -->
+    <div class="modal fade details-1" id="details-1" tableindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close" name="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title text-center">¡Escribenos!</h4>
+          </div>
+          <div class="modal-form">
+            <meta charset="utf-8">
+            <form enctype="multipart/form-data" name="pagerform" id="pageForm" class="contacto-form">
+              <input type="text" placeholder="Nombre"  name="nombre">
+              <input type="text" placeholder="Correo"  name="correo">
+              <input type="text" placeholder="Asunto:" name="asunto">
+              <textarea class="input-mensaje" type="text" placeholder="Mensaje:" name="mensaje"></textarea>
+              <input class="enviar-button" type="button" name="enviar" id="enviar" value="Enviar" onclick="validateForm('pageForm')">
+            </form>
+          </div>
+          <div class="modal-contacto">
+            <span>Telefonos: (81) 8134 2235 / 36 </span> <br>
+            <span>informacion@asepco.com.mx</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section>
       <div class="unete-content">
@@ -30,7 +59,11 @@
             <p class="unete-main-description font-white">
               Comparte tu talento y desarrolla habilidades.
             </p>
-            <button  class="unete-button" type="button" name="button">Enviar mi CV</button>
+
+            <div class="fileUpload unete-button">
+              <span>Enviar mi Cv</span>
+              <input class="upload" type="file" name="attachment" id="uploaded_file">
+            </div>
           </div>
         </div>
       </div>

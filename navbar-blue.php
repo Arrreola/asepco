@@ -20,7 +20,7 @@
       </ul>
 
       <ul class="dropdown-menu index-navbar-breadcrumbs" id="dropdown-menu">
-        <li class="index-navbar-breadcrumb"><a href="quienes.php">Quienes somos</a></li>
+        <li class="index-navbar-breadcrumb"><a href="quienes.php">Quiénes somos</a></li>
         <li class="index-navbar-breadcrumb"><a href="unete.php">Unete al equipo</a></li>
         <li class="index-navbar-breadcrumb"><button class="contacto-button" name="button" data-toggle="modal" data-target="#details-1">Contacto</button></li>
       </ul>

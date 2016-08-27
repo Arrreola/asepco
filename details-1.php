@@ -9,7 +9,10 @@
         <h4 class="modal-title text-center">¡Escribenos!</h4>
       </div>
       <div class="modal-form">
+<<<<<<< HEAD
+=======
         <script src="js/main.js"></script>
+>>>>>>> b3fa02670a15697d10eac99cbaaff784e9268ee4
         <meta charset="utf-8">
         <form enctype="multipart/form-data" name="pagerform" id="pageForm" class="contacto-form">
           <input type="text" placeholder="Nombre"  name="nombre">

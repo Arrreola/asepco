@@ -566,7 +566,10 @@
           <li class="list-modal-list">Ventas personales</li>
           <li class="list-modal-list">Ventas personales y servicio al cliente</li>
           <li class="list-modal-list">Ventas y servicio de mostrador</li>
+<<<<<<< HEAD
+=======
           <li class="list-modal-list blue-list">Ventas telefónicas</li>
+>>>>>>> b3fa02670a15697d10eac99cbaaff784e9268ee4
           <li class="list-modal-list">Estrategias para elevar la productividad en telemarketing</li>
           <li class="list-modal-list">Telemarketing efectivo</li>
           <li class="list-modal-list">Ventas por teléfono</li>

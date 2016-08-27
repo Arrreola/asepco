@@ -13,6 +13,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
   </head>
   <body>
@@ -20,11 +21,40 @@
     <?php include 'navbar-blue.php';
     ?>
 
+    <!-- Form -->
+    <div class="modal fade details-1" id="details-1" tableindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close" name="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title text-center">¡Escribenos!</h4>
+          </div>
+          <div class="modal-form">
+            <meta charset="utf-8">
+            <form enctype="multipart/form-data" name="pagerform" id="pageForm" class="contacto-form">
+              <input type="text" placeholder="Nombre"  name="nombre">
+              <input type="text" placeholder="Correo"  name="correo">
+              <input type="text" placeholder="Asunto:" name="asunto">
+              <textarea class="input-mensaje" type="text" placeholder="Mensaje:" name="mensaje"></textarea>
+              <input class="enviar-button" type="button" name="enviar" id="enviar" value="Enviar" onclick="validateForm('pageForm')">
+            </form>
+          </div>
+          <div class="modal-contacto">
+            <span>Telefonos: (81) 8134 2235 / 36 </span> <br>
+            <span>informacion@asepco.com.mx</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <section>
       <div class="quienes-content-1 margin-navbar">
         <div class="container">
           <div class="quienes-main-copy">
-            <h3 class="quienes-main-header font-white">Nuestra prioridad es tu personal.</h3>
+            <h3 class="quienes-main-header font-white">Nuestra prioridad es tu personal</h3>
             <hr class="quienes-main-copy-hr">
             <p class="quienes-main-description font-white">
               Somos una compañía dedicada al desarrollo del capital humano a
@@ -119,17 +149,21 @@ El objetivo es lograr la implementación del conocimiento y las habilidades del 
       <li class="client-list-each">Taf</li>
       <li class="client-list-each">Carniceria San Juan</li>
       <li class="client-list-each">C&A</li>
+<<<<<<< HEAD
+      <li class="client-list-each">Agua y Drenaje de Monterrey</li>
+=======
       <li class="client-list-each">Agua y Drenaje</li>
+>>>>>>> b3fa02670a15697d10eac99cbaaff784e9268ee4
       <li class="client-list-each">Inbursa</li>
     </ul>
     <ul class="client-list-b font-gray">
       <li class="client-list-each">Toyota</li>
       <li class="client-list-each">Arca</li>
-      <li class="client-list-each">Xakata</li>
+      <li class="client-list-each">Takata</li>
       <li class="client-list-each">Franklin</li>
       <li class="client-list-each">Nemak</li>
       <li class="client-list-each">Banorte</li>
-      <li class="client-list-each">BMW</li>
+      <li class="client-list-each">Acosta verde</li>
       <li class="client-list-each">Grupo Premier</li>
       <li class="client-list-each">Caterpillar</li>
       <li class="client-list-each">Poder Judicial</li>
@@ -138,7 +172,7 @@ El objetivo es lograr la implementación del conocimiento y las habilidades del 
       <li class="client-list-each">Berel</li>
       <li class="client-list-each">Laboratorios Moreira</li>
       <li class="client-list-each">Femsa</li>
-      <li class="client-list-each">Rayados</li>
+      <li class="client-list-each">Rayados de Monterrey</li>
     </ul>
     <ul class="client-list-c font-gray">
       <li class="client-list-each">Hospital OCA</li>
@@ -169,7 +203,7 @@ El objetivo es lograr la implementación del conocimiento y las habilidades del 
         </li>
 
         <li class="cifra-modulo">
-          <span class="cifra font-white" id="cifra-fx">+2000</span>
+          <span class="cifra font-white" id="cifra-fx">+3500</span>
           <span class="cifra-topico font-white">Horas de Capacitación al año</span>
         </li>
 
